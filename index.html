@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Biblioteca Virtual</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- <div>Hola Mundo</div> -->
+        <form action="MaterialVirtual" method="post">
+            <fieldset>
+                <legend>Tipo de material buscado</legend>
+                <p>
+                    <input type="radio" name="size" id="tipoMaterial1" value="pdf" checked />
+                    <label for="tipoMaterial1">PDF </label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="tipoMaterial2" value="video" />
+                    <label for="tipoMaterial2">Video </label>
+                </p>
+                <p>
+                    <input type="radio" name="size" id="tipoMaterial3" value="podcast" />
+                    <label for="tipoMaterial3">Podcast </label>
+                </p>
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" />
+                </p>
+                <input type="submit" value="siguiente" />
+                
+            </fieldset>
+
+        </form>
+    </body>
+</html>
